@@ -10,3 +10,12 @@
 //
 // console.log(getGrade(50, 50, 50));
 
+
+
+// function twoSort(s) {
+// let newArr = s.sort();
+// return newArr[0].split('').join("***")
+//
+// }
+// console.log(twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]));
+// console.log(typeof (twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"])));

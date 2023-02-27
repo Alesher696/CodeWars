@@ -22,11 +22,6 @@
 // console.log(typeof (twoSort(["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"])));
 
 
-
-
-
-
-
 // assert.deepEqual(countBy(1,10), [1,2,3,4,5,6,7,8,9,10], "Array does not match")
 // assert.deepEqual(countBy(2,5), [2,4,6,8,10], "Array does not match")
 
@@ -63,4 +58,52 @@
 // }
 //
 // console.log(findMultiples(5,25));
-//==============================================================================
+//============================================================================
+
+
+// function remove(string) {
+//     let arr = string.split('')
+//     let newArr = []
+//
+//     if(arr[arr.length -1] ==='!'){
+//         arr.pop()
+//         return arr.join('')
+//     } else  return arr.join('')
+// }
+//
+// console.log(remove('!Hi!!!'));
+
+
+//============================================================================
+
+// function addFive(num) {
+//
+//     let total = 0
+//     total < 0 ? total = 0 : total = num + 5
+//     return total
+// }
+// console.log(addFive(10));
+
+//============================================================================
+
+
+// function positiveSum(arr) {
+//     let initialValue = 0
+//     return arr.length === 0 ? 0 : arr.reduce((sum, el) => el >= 0 ? (sum + el, initialValue) : sum)
+//
+// }
+//
+// console.log(positiveSum([0,1,2,3,4]));
+// assert.strictEqual(positiveSum([1,2,3,4,5]),15);
+// assert.strictEqual(positiveSum([1,-2,3,4,5]),13);
+// assert.strictEqual(positiveSum([]),0);
+// assert.strictEqual(positiveSum([-1,-2,-3,-4,-5]),0);
+// assert.strictEqual(positiveSum([-1,2,3,4,-5]),9);
+
+//============================================================================
+
+function strCount(str, letter){
+   let arr = str.split('').filter( el=> el === letter)
+    return arr.length
+}
+console.log(strCount('Hello', 'l'));

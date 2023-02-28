@@ -101,9 +101,63 @@
 // assert.strictEqual(positiveSum([-1,2,3,4,-5]),9);
 
 //============================================================================
+//
+// function strCount(str, letter){
+//    let arr = str.split('').filter( el=> el === letter)
+//     return arr.length
+// }
+// console.log(strCount('Hello', 'l'));
 
-function strCount(str, letter){
-   let arr = str.split('').filter( el=> el === letter)
-    return arr.length
-}
-console.log(strCount('Hello', 'l'));
+//============================================================================
+
+
+// function count(){
+//     let count=0
+//     //???????
+// }
+//
+// count().inc()
+// console.log(count().getCount())
+
+//============================================================================
+
+// try{
+//     if(console.log(1)){
+//         console.log(2)
+//     }else{
+//         throw new Error()
+//     }
+//
+// }catch(error){
+//     console.log(3)
+//     try{
+//         var a=5
+//         change(a)
+//     }finally{
+//         console.log(a)
+//     }
+// }finally{
+//     console.log(4)
+// }
+// function change(a) {a++}
+
+
+//============================================================================
+
+// function powersOfTwo(n) {
+//     let arr = []
+//     arr.length = n
+//     for (let i = 0; i < arr.length; i++) {
+//         arr[i] = i + 1
+//     }
+//
+//     if( arr.length === 0){
+//         return arr = [1]
+//     } else return arr.filter(el => el % 2 === 0 || el === 1)
+//
+// }
+//
+// console.log(powersOfTwo(1));
+
+//============================================================================
+

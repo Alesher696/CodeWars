@@ -161,3 +161,34 @@
 
 //============================================================================
 
+// function check(a, x) {
+// let total = []
+//     for( let i = 0; i < a.length; i++){
+//         if (a[i] === x){
+//            total +=  a[i]
+//         }
+//     }
+//     return total.length !== 0 ? true : false
+// }
+//
+//
+// // лучше всего использовать a.includes(x)
+//
+// console.log(check([101, 45, 75, 105, 99, 107], 107));
+
+// assert.strictEqual(check([66, 101], 66), true);
+// assert.strictEqual(check([101, 45, 75, 105, 99, 107], 107), true);
+// assert.strictEqual(check(['t', 'e', 's', 't'], 'e'), true);
+// assert.strictEqual(check(['what', 'a', 'great', 'kata'], 'kat'), false);
+
+//============================================================================
+
+// function mouthSize(animal) {
+//    return animal.toLowerCase() === 'alligator' ? 'small' : 'wide'
+// }
+// console.log(mouthSize("toucan"));
+
+// assert.strictEqual(mouthSize("ant bear"),"wide")
+// assert.strictEqual(mouthSize("alligator"),"small")
+
+//============================================================================
